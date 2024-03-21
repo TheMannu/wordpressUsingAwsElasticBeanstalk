@@ -114,10 +114,13 @@ Step 10 → review your configuration and click on sumbit
 ### Download Wordpress →
 step 1 → go to your ubuntu terminal and create dir mkdir git run
 
-cd git
-apt install git
-git clone https://github.com/TheMannu/wordpressUsingAwsElasticBeanstalk.git
-zip ../your_folder_name.zip -r * .[^.]*
+1. cd git
+
+2. apt install git
+  
+3. git clone https://github.com/TheMannu/wordpressUsingAwsElasticBeanstalk.git
+   
+4. zip ../your_folder_name.zip -r * .[^.]*
 
 ### Upload and deploy →
 step 1 →go to your elastic beanstalk console choose the environment you created above and select upload and deploy option choose your wordpress file that you just downloaded and click on deploy
