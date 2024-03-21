@@ -144,7 +144,7 @@ step 2 → copy the public ip and take ssh of that machine from your terminal by
 ssh -i <your key pair name > ec2-user@<public ip>
 
 
-![word11](https://github.com/TheMannu/wordpressUsingAwsElasticBeanstalk/assets/84488161/c2071f29-6835-4375-a709-c994a718550b)
+![word](https://github.com/TheMannu/wordpressUsingAwsElasticBeanstalk/assets/84488161/82e34000-4dad-4b00-83d0-ef8121eb249e)
 
 
 step 3 → run the following commands
