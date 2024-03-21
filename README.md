@@ -76,7 +76,7 @@ step 1 → go to your ubuntu terminal and create dir mkdir git run
 
 cd git
 apt install git
-git clone https://github.com/Aakibgithuber/deploy-wordpress-
+git clone https://github.com/TheMannu/wordpressUsingAwsElasticBeanstalk.git
 zip ../your_folder_name.zip -r * .[^.]*
 
 ### Upload and deploy →
