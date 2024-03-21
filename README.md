@@ -39,6 +39,13 @@ step 4 → In service role click create and use new service role and select aws-
 
 step 5 →choose your ec2 keypair and your ec2 instance profile to ec2accessdemoapp
 
+
+![word4](https://github.com/TheMannu/wordpressUsingAwsElasticBeanstalk/assets/84488161/3eb8f2a0-ea3a-4932-84fb-1db871f236d3)
+
+
+### note: key pair must be present in your localhost
+
+
 step 6 → In VPC choose default vpc and then select your instance subnet and database subnets
 
 click next
@@ -46,10 +53,15 @@ click next
 step 7 →select the default security group from the options and click next
 
 
-![word4](https://github.com/TheMannu/wordpressUsingAwsElasticBeanstalk/assets/84488161/3eb8f2a0-ea3a-4932-84fb-1db871f236d3)
+![word5](https://github.com/TheMannu/wordpressUsingAwsElasticBeanstalk/assets/84488161/9aeaf443-2348-4559-9593-81533fad285f)
+
 
 
 step 8 → in health reporting choose basic and untick the manged updates options
+
+![word6](https://github.com/TheMannu/wordpressUsingAwsElasticBeanstalk/assets/84488161/57e8d3e1-a616-457b-a58d-e604d78c7c64)
+
+
 
 step 9 → Now connect your database by adding environment properties
 
@@ -83,11 +95,21 @@ The password that you configured for your database.
 
 Not available for reference in the Amazon RDS console.
 
+
+![word7](https://github.com/TheMannu/wordpressUsingAwsElasticBeanstalk/assets/84488161/8612bee2-b46f-4fb5-9d4a-0ff8dfe402c5)
+
+
 Step 10 → review your configuration and click on sumbit
 
 ### It takes around 5 min to create your application
 
 ### click on url provided by elastic beanstalk you will find a page 
+
+
+
+![word8](https://github.com/TheMannu/wordpressUsingAwsElasticBeanstalk/assets/84488161/d9729217-ecff-4c7c-b6d1-c755845cd44e)
+
+
 
 ### Download Wordpress →
 step 1 → go to your ubuntu terminal and create dir mkdir git run
@@ -100,9 +122,19 @@ zip ../your_folder_name.zip -r * .[^.]*
 ### Upload and deploy →
 step 1 →go to your elastic beanstalk console choose the environment you created above and select upload and deploy option choose your wordpress file that you just downloaded and click on deploy
 
+
+![word9](https://github.com/TheMannu/wordpressUsingAwsElasticBeanstalk/assets/84488161/00be3927-eb87-4fcf-8317-d20d34bdf2a5)
+
+
+
 It also takes around 5 min to deploy the application
 
 after it successful deployment click on url but it shows 404 ngnix not found
+
+
+![word10](https://github.com/TheMannu/wordpressUsingAwsElasticBeanstalk/assets/84488161/96b6c119-3e5a-4e69-8f75-046905aa08e0)
+
+
 
 to overcome this error →
 step 1 → go to your ec2 dashboard and choose the instance created by elastic beanstalk
@@ -110,6 +142,10 @@ step 1 → go to your ec2 dashboard and choose the instance created by elastic b
 step 2 → copy the public ip and take ssh of that machine from your terminal by running
 
 ssh -i <your key pair name > ec2-user@<public ip>
+
+
+![word11](https://github.com/TheMannu/wordpressUsingAwsElasticBeanstalk/assets/84488161/c2071f29-6835-4375-a709-c994a718550b)
+
 
 step 3 → run the following commands
 
