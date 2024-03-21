@@ -10,9 +10,15 @@ step 1 → Search RDS on aws console and then click on create database
 
 step 2 → choose standard create and then mysql engine
 
+![Screenshot (243)](https://github.com/TheMannu/wordpressUsingAwsElasticBeanstalk/assets/84488161/97e07011-62b9-437d-b0aa-ef671b37f233)
+
+
 step 3 →set your master name and password you could also autogenerate the password
 
 step 4 → give the name to your database in the additional configuration and remain everything as it is and click on create database it takes up to 3 to 4 minutes to configure everything
+
+![Screenshot (244)](https://github.com/TheMannu/wordpressUsingAwsElasticBeanstalk/assets/84488161/4caf3c68-77f2-455f-abe9-904bd1d586f1)
+
 
 ### Launch elastic beanstalk environment →
 step 1 →Search Elastic beanstalk on aws console and then click on create application
