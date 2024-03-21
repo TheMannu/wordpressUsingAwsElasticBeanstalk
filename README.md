@@ -10,14 +10,18 @@ step 1 → Search RDS on aws console and then click on create database
 
 step 2 → choose standard create and then mysql engine
 
+
 ![Screenshot (243)](https://github.com/TheMannu/wordpressUsingAwsElasticBeanstalk/assets/84488161/97e07011-62b9-437d-b0aa-ef671b37f233)
+
 
 
 step 3 →set your master name and password you could also autogenerate the password
 
 step 4 → give the name to your database in the additional configuration and remain everything as it is and click on create database it takes up to 3 to 4 minutes to configure everything
 
+
 ![Screenshot (244)](https://github.com/TheMannu/wordpressUsingAwsElasticBeanstalk/assets/84488161/4caf3c68-77f2-455f-abe9-904bd1d586f1)
+
 
 
 ### Launch elastic beanstalk environment →
@@ -26,6 +30,10 @@ step 1 →Search Elastic beanstalk on aws console and then click on create appli
 step 2 →choose web server environment and then give name to your application
 
 step 3 →choose php from managed platform and then click next
+
+
+![Screenshot (245)](https://github.com/TheMannu/wordpressUsingAwsElasticBeanstalk/assets/84488161/a4c39e67-8b53-480d-909f-9a751b440aa4)
+
 
 step 4 → In service role click create and use new service role and select aws-elasticbeanstalk-service-role from it
 
@@ -36,6 +44,10 @@ step 6 → In VPC choose default vpc and then select your instance subnet and da
 click next
 
 step 7 →select the default security group from the options and click next
+
+
+![word4](https://github.com/TheMannu/wordpressUsingAwsElasticBeanstalk/assets/84488161/3eb8f2a0-ea3a-4932-84fb-1db871f236d3)
+
 
 step 8 → in health reporting choose basic and untick the manged updates options
 
