@@ -137,6 +137,7 @@ after it successful deployment click on url but it shows 404 ngnix not found
 
 
 to overcome this error →
+
 step 1 → go to your ec2 dashboard and choose the instance created by elastic beanstalk
 
 step 2 → copy the public ip and take ssh of that machine from your terminal by running
