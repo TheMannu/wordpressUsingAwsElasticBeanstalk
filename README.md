@@ -1,3 +1,4 @@
+# Project  → Deploying wordpress website on AWS using elastic beanstalk
 ### Elastic beanstalk →
 It is simply called serverless computing or you just need to provide a code of your application to aws and aws itself manage everything in their end such as managing load on server,storage,type of instance etc…
 
@@ -70,7 +71,7 @@ Step 10 → review your configuration and click on sumbit
 
 ### click on url provided by elastic beanstalk you will find a page 
 
-## Download Wordpress →
+### Download Wordpress →
 step 1 → go to your ubuntu terminal and create dir mkdir git run
 
 cd git
@@ -78,7 +79,7 @@ apt install git
 git clone https://github.com/Aakibgithuber/deploy-wordpress-
 zip ../your_folder_name.zip -r * .[^.]*
 
-## Upload and deploy →
+### Upload and deploy →
 step 1 →go to your elastic beanstalk console choose the environment you created above and select upload and deploy option choose your wordpress file that you just downloaded and click on deploy
 
 It also takes around 5 min to deploy the application
@@ -100,15 +101,15 @@ cd /var/www/html/
 
 3. mv wordpress/* / var/www/html/
 
-#this command will move the entire files from from wordpress folder
+### this command will move the entire files from from wordpress folder
 
 4. rm -rf wordpress
 
-#this command will delete the wordpress folder
+### this command will delete the wordpress folder
 
 now again click on url you will find a web page where you wordpress application running
 
-congratulations!!
+# congratulations!!
 
 
 
